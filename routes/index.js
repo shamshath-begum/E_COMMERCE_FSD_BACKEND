@@ -64,5 +64,9 @@ cancel_url:"http://localhost:3000/cancel"
     }
     
 })
-
+router.get('/',(req,res)=>{
+    res.status(200).send({
+       message: "hello"
+    })
+})
 module.exports = router;
