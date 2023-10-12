@@ -10,7 +10,7 @@ const UserSchema=new mongoose.Schema({
 role:{type:String,default:"salesRep"},
     password:{type:String,required:true},
     confirmPassword:{type:String,required:true},
-    image: {type:String,required:true},
+    image: {type:String},
     status:{type:String,default:"Y"},
     token:{type:String},
     // verifytoken:{type:String,default:null},
