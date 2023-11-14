@@ -50,7 +50,7 @@ line_items:req.body.map((item)=>{
         quantity:item.qty
     }
 }),
-success_url:"http://localhost:3000/success",
+success_url:"https://tubular-paletas-df757b.netlify.app/success",// http://localhost:3000/success",
 cancel_url:"http://localhost:3000/cancel"
 
         }
